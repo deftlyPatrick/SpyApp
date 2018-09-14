@@ -25,6 +25,20 @@
 			remoteGlobalIDString = 970E4DD02138EC8600BA3EE9;
 			remoteInfo = SpyApp;
 		};
+		CA6FD8382142200E00ABAD12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA6FD8332142200E00ABAD12 /* SpyApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 970E4DD12138EC8600BA3EE9;
+			remoteInfo = SpyApp;
+		};
+		CA6FD83A2142200E00ABAD12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA6FD8332142200E00ABAD12 /* SpyApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 970E4DE52138EC8700BA3EE9;
+			remoteInfo = SpyAppTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +54,7 @@
 		970E4DEB2138EC8700BA3EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		970E4DF42138FC0B00BA3EE9 /* CeaserCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeaserCipher.swift; sourceTree = "<group>"; };
 		970E4DF621392D4800BA3EE9 /* CipherFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CipherFactory.swift; sourceTree = "<group>"; };
+		CA6FD8332142200E00ABAD12 /* SpyApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SpyApp.xcodeproj; path = "../../Downloads/SpyApp 2/SpyApp.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +81,7 @@
 				970E4DD32138EC8600BA3EE9 /* SpyApp */,
 				970E4DE82138EC8700BA3EE9 /* SpyAppTests */,
 				970E4DD22138EC8600BA3EE9 /* Products */,
+				CA6FD8332142200E00ABAD12 /* SpyApp.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +116,15 @@
 				970E4DEB2138EC8700BA3EE9 /* Info.plist */,
 			);
 			path = SpyAppTests;
+			sourceTree = "<group>";
+		};
+		CA6FD8342142200E00ABAD12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA6FD8392142200E00ABAD12 /* SpyApp.app */,
+				CA6FD83B2142200E00ABAD12 /* SpyAppTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +195,12 @@
 			mainGroup = 970E4DC82138EC8600BA3EE9;
 			productRefGroup = 970E4DD22138EC8600BA3EE9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CA6FD8342142200E00ABAD12 /* Products */;
+					ProjectRef = CA6FD8332142200E00ABAD12 /* SpyApp.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				970E4DD02138EC8600BA3EE9 /* SpyApp */,
@@ -177,6 +208,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CA6FD8392142200E00ABAD12 /* SpyApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SpyApp.app;
+			remoteRef = CA6FD8382142200E00ABAD12 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CA6FD83B2142200E00ABAD12 /* SpyAppTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SpyAppTests.xctest;
+			remoteRef = CA6FD83A2142200E00ABAD12 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		970E4DCF2138EC8600BA3EE9 /* Resources */ = {
