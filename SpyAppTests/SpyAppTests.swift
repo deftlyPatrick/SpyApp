@@ -27,4 +27,15 @@ class SpyAppTests: XCTestCase {
         XCTAssertNil(result)
     }
 
+    //unit test
+    
+    func testExample3(){
+        
+        let result = cipher.encode("123", secret: "numericString")
+        let result2 = cipher.encode("123", secret: "numericString")
+        
+        XCTAssertEqual(result, result2)
+        
+    }
+    
 }
