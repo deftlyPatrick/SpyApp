@@ -4,8 +4,10 @@ struct CipherFactory {
 
     private var ciphers: [String: Cipher] = [
         "cesar": CeaserCipher(),
-        "someOtherCipher": CeaserCipher()
-        "12z2dha2": CeaserCipher()
+        "someOtherCipher": CeaserCipher(),
+   
+        //Problem 3
+        "12z2dha2": CeaserCipher(),
         "ZHZHAhXH7787s" : CeaserCipher()
     ]
 
@@ -14,7 +16,8 @@ struct CipherFactory {
     }
     
 
-    func AlphanumericCesarCipher(text: String, num: Int) -> String{
+    //Problem 2
+    func AlphanumericCesarCipher(text: String) -> String{
         let cipher: String = text
         var cipher2: String = cipher.uppercased()
         
